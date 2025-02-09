@@ -113,7 +113,7 @@ read_line_and_trim:
 ;   - RDI: Pointer to a null-terminated string.                                                   ;
 ;-------------------------------------------------------------------------------------------------;
 ; Description:                                                                                    ;
-;   Computes the length of a zero-terminated string by iterating through bytes until a null        ;
+;   Computes the length of a zero-terminated string by iterating through bytes until a null       ;
 ;   character (0) is encountered. Returns length in RAX.                                          ;
 ;=================================================================================================;
 strlen_z:
