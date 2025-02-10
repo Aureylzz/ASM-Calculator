@@ -53,7 +53,7 @@ It includes:
 
 5. **Clean Project Structure**  
    - Multiple assembly files grouped by functionality (I/O, menu, operations, etc.).  
-   - Clearly commented code following the x86-64 SysV ABI calling convention.
+   - Clearly commented code following the x86-64 calling convention.
 
 
 ## Architecture
@@ -141,7 +141,7 @@ Below is a simplified register usage overview for the entire project under the *
 
 ## Dependencies & Setup
 
-1. **Assembler**: [Yasm](http://yasm.tortall.net/) or [NASM](https://www.nasm.us/) for assembling `.asm` files.  
+1. **Assembler**: [Yasm](https://github.com/yasm/yasm) or [NASM](https://www.nasm.us/) for assembling `.asm` files.  
 2. **GCC**: A C compiler to link the object files and produce an executable (using `-no-pie` for classic linking).  
 3. **Linux environment**: The code relies on Linux syscall conventions.
 
